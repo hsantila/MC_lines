@@ -501,7 +501,7 @@ double dx=x-px;
 double dy=y-py;
 
 dx -= dround(dx/box[0])*box[0];
-dx -= dround(dx/box[1])*box[1];
+dy -= dround(dy/box[1])*box[1];
 
 int temp=0;
 
